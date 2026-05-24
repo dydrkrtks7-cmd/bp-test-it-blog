@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>서버 웜업 전문 포트폴리오 저널</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #ffffff;
+      --text-color: #0f172a;
+      --accent-color: #10b981;
+      --muted-color: #64748b;
+      --border-color: #e2e8f0;
+      --font-swiss: 'Inter', 'Noto Sans KR', sans-serif;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-swiss);
+      line-height: 1.7;
+      letter-spacing: -0.01em;
+      padding: 0 24px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 60px 0;
+    }
+    header {
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 24px;
+      margin-bottom: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    .logo {
+      font-size: 1.25rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      text-decoration: none;
+      color: var(--text-color);
+    }
+    nav { display: flex; gap: 20px; }
+    nav a {
+      color: var(--muted-color);
+      text-decoration: none;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 600;
+      transition: color 0.2s ease;
+    }
+    nav a:hover { color: var(--accent-color); }
+    main { padding-bottom: 60px; }
+    .meta-tag {
+      font-size: 0.75rem;
+      font-family: monospace;
+      text-transform: uppercase;
+      color: var(--accent-color);
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      margin-bottom: 16px;
+      display: inline-block;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      line-height: 1.2;
+      letter-spacing: -0.03em;
+      color: var(--text-color);
+      margin-bottom: 32px;
+    }
+    .content {
+      font-size: 1.05rem;
+      color: var(--text-color);
+      margin-bottom: 48px;
+      font-weight: 300;
+    }
+    .content p { margin-bottom: 20px; }
+    .juice-link {
+      color: var(--accent-color);
+      text-decoration: none;
+      border-bottom: 1px solid var(--accent-color);
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+    .juice-link:hover {
+      background-color: rgba(16, 185, 129, 0.05);
+    }
+    .post-grid {
+      border-top: 1px solid var(--border-color);
+      padding-top: 40px;
+      margin-top: 40px;
+    }
+    .grid-title {
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted-color);
+      margin-bottom: 24px;
+    }
+    .posts-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .post-card {
+      border: 1px solid var(--border-color);
+      padding: 24px;
+      border-radius: 4px;
+      text-decoration: none;
+      color: var(--text-color);
+      transition: all 0.2s ease;
+    }
+    .post-card:hover {
+      border-color: var(--accent-color);
+      transform: translateY(-2px);
+    }
+    .post-card h3 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    .post-card p {
+      font-size: 0.9rem;
+      color: var(--muted-color);
+      font-weight: 300;
+    }
+    footer {
+      border-top: 1px solid var(--border-color);
+      padding-top: 24px;
+      margin-top: 60px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      color: var(--muted-color);
+    }
+    footer a { color: var(--muted-color); text-decoration: none; }
+    footer a:hover { color: var(--accent-color); }
+    @media(max-width: 768px) {
+      header { flex-direction: column; align-items: flex-start; gap: 16px; }
+      h1 { font-size: 1.8rem; }
+    }
+  </style>
+<meta property="og:image" content="og-image.svg">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="/" class="logo">JOURNAL</a>
+      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
+    </header>
+    <main>
+      <div class="meta-tag">SWISS ACCENTED GRID SYSTEM</div>
+      <h1>서버 웜업 전문 포트폴리오 저널</h1>
+      <div class="content">
+        웰컴 투 <strong>서버 웜업</strong> 정보 아카이브 저널입니다. 본 공간은 서버 웜업 분야의 깊이 있는 전문 지식과 실전 가이드, 그리고 유용한 관련 정보들을 꼼꼼하게 집대성한 고품격 PBN 정보 허브입니다.<br><br>아래의 엄선된 에디토리얼 아카이브 리스트를 통해 다양한 인사이트를 확인하시고 삶과 비즈니스의 격을 넓혀보시기 바랍니다.
+      </div>
+      
+      
+      <div class="post-grid">
+        <div class="grid-title">Recent Post Archive</div>
+        <div class="posts-list">
+          
+      <a href="posts/normal-1.html" class="post-card">
+        <h3>서버 웜업: IP 신뢰도를 높이는 웜업 기술</h3>
+        <p>IP 신뢰도를 높이는 서버 웜업(Warm-up)은 이메일 마케팅이나 대량 발송 솔루션을 성공적으로 운영하기 위해 반드시 거쳐야 하는 필수 관문입니다. 새로 할당받은 IP는 주요 포털 및 메일 서버(Gmail, Outlook 등) 사이에서 신뢰도가 제로인 상태입니다. 이...</p>
+      </a>
+    
+
+      <a href="posts/normal-2.html" class="post-card">
+        <h3>서버 웜업: 이메일 발송 서버 빌드 가이드</h3>
+        <p>안정적이고 독자적인 이메일 발송 인프라를 구축하려면 서버 설정부터 SPF, DKIM, DMARC 등의 인증 방식 설정까지 빈틈이 없어야 합니다. 메일 서버 빌드의 기본은 신뢰할 수 있는 클라우드 호스트 환경을 선택하고 클린 IP 대역을 확보하는 것입니다. 그 후 Pos...</p>
+      </a>
+    
+
+      <a href="posts/juice-1.html" class="post-card">
+        <h3>서버 웜업 마니아들에게 추천하는 IT 기술 블로그 및 최신 프로그래밍 트렌드 알짜배기 이용 가이드</h3>
+        <p>이메일 인프라의 핵심인 서버 웜업을 정교하게 진행하다 보면, 결국 신뢰성과 효율적인 도달률의 균형점을 찾는 것이 얼마나 중요한지 깨닫게 됩니다. 웜업 과정에서 기술적인 세부 사항에 몰두하는 마니아들이라면, 이를 비즈니스 현장이나 마케팅 전반에 어떻게 영리하게 투영하여 ...</p>
+      </a>
+    
+
+      <a href="posts/juice-2.html" class="post-card">
+        <h3>서버 웜업 관리 과정에서 배운 IT 기술 블로그 및 최신 프로그래밍 트렌드 도입 성공 수기</h3>
+        <p>대규모 인프라 운영 과정에서 IP 평판과 서버 평판을 안정적으로 유지하기 위해 정교한 서버 웜업을 수개월간 진행했던 경험이 있습니다. 매일 발송 한도를 모니터링하며 인프라의 완성도를 가다듬는 과정은 엄청난 인내심과 전략적 접근을 요하는 작업이었습니다. 이러한 체계적인 ...</p>
+      </a>
+    
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div>&copy; 2026 JOURNAL. ALL RIGHTS RESERVED.</div>
+      <div>
+        <a href="sitemap.xml">SITEMAP</a> | 
+        <a href="#">PRIVACY</a> | 
+        <a href="#">DISCLAIMER</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

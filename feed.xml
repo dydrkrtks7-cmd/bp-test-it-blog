@@ -1,34 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title><![CDATA[풀스택 SEO 기술연구]]></title>
+  <title><![CDATA[구글 검색엔진 크롤링 최적화 기술 블로그 구글 검색엔진 크롤링 최적화 기술 블로그]]></title>
   <link>https://test-it-blog.online</link>
-  <description><![CDATA[풀스택 SEO 기술연구 - 구글 검색엔진 크롤링 최적화 기술 블로그 관련 최신 소식 및 가이드]]></description>
-  <language>ko</language>
-  <pubDate>Thu, 28 May 2026 21:01:20 GMT</pubDate>
-  <lastBuildDate>Thu, 28 May 2026 21:01:20 GMT</lastBuildDate>
+  <description><![CDATA[구글 검색엔진 크롤링 최적화 기술 블로그 풀스택 SEO 기술연구 관련 최신 뉴스, 서비스 안내, 리얼 후기 정보를 신속하게 전달하는 공식 RSS 피드입니다.]]></description>
+  <language>ko-KR</language>
+  <pubDate>Thu, 28 May 2026 13:15:03 GMT</pubDate>
+  <lastBuildDate>Thu, 28 May 2026 13:15:03 GMT</lastBuildDate>
   <atom:link href="https://test-it-blog.online/feed.xml" rel="self" type="application/rss+xml" />
   
     <item>
-      <title><![CDATA[크롤러가 놓친 0.01 초의 간극을 파고드는 데이터 고고학]]></title>
-      <link>https://test-it-blog.online/posts/guide-001.html</link>
-      <guid isPermaLink="true">https://test-it-blog.online/posts/guide-001.html</guid>
-      <description><![CDATA[검색 지수 그래프에서 2013 년 6 월 5 일부터 7 일 사이에 발생한 미세한 진동을多数人은 간과했다. 대중은 프리즘 (PRISM) 이라는 거대한 단어에만 집중했지만, 데이터 과학자의 눈에는 슬라이드 번호 7 번이 아닌 그 전후의 메타데이터 흐름이 더 중요하게 보인다]]></description>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[프레임 단위로 찢겨진 보스들: 스킵 글리치가 막힌 진짜 이유]]></title>
-      <link>https://test-it-blog.online/posts/guide-002.html</link>
-      <guid isPermaLink="true">https://test-it-blog.online/posts/guide-002.html</guid>
-      <description><![CDATA[패치 1.04.1 이전까지 '레어민델 동쪽 절벽' 좌표 X:4092, Y:-120에서 특정 무거운 대검을equip 한 상태라면 3프레임 이내에 롤링을 입력했을 때만 발동하는 '벽 통과' 버그가 존재했다. 이걸 이용해 스피드러너들은 중간 보스를 완전히 무시하고 엔딩까지 ]]></description>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[삭제된 파일이 속삭이는 진짜 기획 의도]]></title>
-      <link>https://test-it-blog.online/posts/major_compare-003.html</link>
-      <guid isPermaLink="true">https://test-it-blog.online/posts/major_compare-003.html</guid>
-      <description><![CDATA[[제목: 삭제된 파일이 속삭이는 진짜 기획 의도] 개발 로그 파일 `DS_DEMO_v0.94_build` 를 뒤지다 보면, 완성된 게임에서는 절대 마주칠 수 없는 '북쪽 불사burg'의 원형이 나옵니다. 여기에는 현재와 완전히 다른 적 배치 알고리즘이 심어져 있었죠. ]]></description>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+      <title><![CDATA[구글 검색엔진 크롤링 최적화 기술 블로그 구글 검색엔진 크롤링 최적화 기술 블로그 - 공식 홈페이지 오픈 안내]]></title>
+      <link>https://test-it-blog.online/</link>
+      <guid isPermaLink="true">https://test-it-blog.online/</guid>
+      <description><![CDATA[구글 검색엔진 크롤링 최적화 기술 블로그 풀스택 SEO 기술연구 관련 최신 뉴스, 서비스 안내, 리얼 후기 정보를 신속하게 전달하는 공식 RSS 피드입니다.]]></description>
+      <pubDate>Thu, 28 May 2026 13:15:03 GMT</pubDate>
     </item>
 </channel>
 </rss>
